@@ -1,1 +1,1 @@
-# Python-rnekler-1
+# Python Örnekler <3
