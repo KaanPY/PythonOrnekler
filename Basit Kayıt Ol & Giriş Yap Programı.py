@@ -1,3 +1,5 @@
+# İyi çalışmalar <3
+
 import random
 
 registeredUsers = []
