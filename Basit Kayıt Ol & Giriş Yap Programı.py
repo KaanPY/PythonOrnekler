@@ -22,7 +22,7 @@ while(True):
                 print(f'>> {userName} hoş geldin!')
                 break
         else:
-            print('>> Tekrar deneyiniz.')
+            print('>> Tekrar deneyiniz!')
 
     elif(operator == 2):
         randomNumber2 = random.randint(100,999)
