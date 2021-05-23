@@ -7,7 +7,7 @@ while(True):
 1.Sisteme Giriş Yap
 2.Sisteme Kayıt Ol
 3.Sistemden Çıkış...
->> İşlem Seçininiz (örn; 1): """))
+>> İşlem seçiniz (örn; 1): """))
 
     if(operation == 1):
         randomNumber = random.randint(100,999)
