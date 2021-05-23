@@ -3,34 +3,34 @@ import random
 registeredUsers = []
 
 while(True):
-    operator = int(input("""\n============Operatörler==========
+    operation = int(input("""\n============İşlemler==========
 1.Sisteme Giriş Yap
 2.Sisteme Kayıt Ol
 3.Sistemden Çıkış...
->> Operatör Seçiminiz (örn; 1): """))
+>> İşlem Seçininiz (örn; 1): """))
 
-    if(operator == 1):
+    if(operation == 1):
         randomNumber = random.randint(100,999)
 
-        print(f'Güvenlik Kodu: {randomNumber}')
-        userName = input('\nKullanıcı adınız: ')
-        userPassword = input('Şifrenizi giriniz: ')
-        securityCode = int(input('Güvenlik kodunu giriniz: '))
+        print(f'\n>> Güvenlik Kodu: {randomNumber}')
+        userName = input('Kullanıcı adınız: ')
+        userPassword = input('Şifreniz: ')
+        securityCode = int(input('Güvenlik kodu: '))
 
         for kaan in registeredUsers:
             if((userName == kaan["name"])and(userPassword == kaan["password"])and(securityCode == randomNumber)):
                 print(f'>> {userName} hoş geldin!')
                 break
         else:
-            print('>> Tekrar deneyiniz!')
+            print('>> Tekrar deneyiniz.')
 
-    elif(operator == 2):
+    elif(operation == 2):
         randomNumber2 = random.randint(100,999)
 
-        print(f'Güvenlik Kodu: {randomNumber2}')
-        name = input('\nKullanıcı adınızı giriniz: ')
-        password = input('Şifrenizi giriniz: ')
-        securityCode2 = int(input('Güvenlik kodunu giriniz: '))
+        print(f'\n>> Güvenlik Kodu: {randomNumber2}')
+        name = input('Kullanıcı adı: ')
+        password = input('Şifre: ')
+        securityCode2 = int(input('Güvenlik kodu: '))
 
         if(securityCode2 == randomNumber2):
             registeredUsers.append({
@@ -39,9 +39,9 @@ while(True):
             })
             print('>> Kayıt başarılı!')
         else:
-            print('>> Güvenlik kodu yanlış girildi! Lütfen tekrar deneyiniz!')
+            print('>> Güvenlik kodu yanlış! Lütfen tekrar deneyiniz!')
 
-    elif(operator == 3):
-        print('\n>> Sistemden çıkılıyor...')
+    elif(operation == 3):
+        print('\n>> Sistemden çıkış yapılıyor...')
         break
 print('>> Sistemden başarıyla çıkış yaptınız!')
