@@ -7,7 +7,7 @@ while(True):
 1.Sisteme Giriş Yap
 2.Sisteme Kayıt Ol
 3.Sistemden Çıkış...
->> Operatör Seçiminiz: """))
+>> Operatör Seçiminiz (örn; 1): """))
 
     if(operator == 1):
         randomNumber = random.randint(100,999)
@@ -19,10 +19,10 @@ while(True):
 
         for kaan in registeredUsers:
             if((userName == kaan["name"])and(userPassword == kaan["password"])and(securityCode == randomNumber)):
-                print('>> Başarılı')
+                print(f'>> {userName} hoş geldin!')
                 break
         else:
-            print('>> üzgünüz')
+            print('>> Tekrar deneyiniz.')
 
     elif(operator == 2):
         randomNumber2 = random.randint(100,999)
@@ -39,9 +39,9 @@ while(True):
             })
             print('>> Kayıt başarılı!')
         else:
-            print('>> Güvenlik kodu yanlış girildi!')
+            print('>> Güvenlik kodu yanlış girildi! Lütfen tekrar deneyiniz!')
 
     elif(operator == 3):
         print('\n>> Sistemden çıkılıyor...')
         break
-print('>> Sistemden başarıyla çıkış yapıldı!')
+print('>> Sistemden başarıyla çıkış yaptınız!')
