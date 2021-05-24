@@ -20,10 +20,7 @@ def not_oku():
     with open('kayitliOgrenciler.txt', mode='r', encoding='utf-8') as file:
         print('\n==========KAYITLI ÖĞRENCİLER==========')
         for kaan in file:
-            print(kaan)       
-
-def ogrenci_sil():
-    pass
+            print(kaan)
 
 while(True):
     operation = int(input("""==========İŞLEMLER==========
