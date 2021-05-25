@@ -10,7 +10,7 @@ def not_ekle():
     ogrenciNumara = input('> Öğrenci numarası: ')
     ogrenciNot = int(input('> 1.Öğrenci sınav notu: '))
     ogrenciNot2 = int(input('> 2.Öğrenci sınav notu: '))
-    ogrenciPerformans = int(input('Öğrenci performans notu: '))
+    ogrenciPerformans = int(input('> Öğrenci performans notu: '))
 
     with open('kayitliOgrenciler.txt', mode='a', encoding='utf-8') as file:
         file.write(f'1-) Adı & Soyadı: {ogrenciAdSoy}, Numarası: {ogrenciNumara}, 1.Sınav Notu: {ogrenciNot}, 2.Sınav Notu: {ogrenciNot2}, Performans Notu: {ogrenciPerformans}\n')
