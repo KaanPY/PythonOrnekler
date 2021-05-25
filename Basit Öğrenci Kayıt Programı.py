@@ -36,7 +36,7 @@ while(True):
 1.Öğrenci Not Ekle
 2.Kayıtlı Öğrenciler
 3.Sistemden Çıkış...
-İşlem seçiniz (örn;1): """))
+>> İşlem seçiniz (örn;1): """))
 
     if(operation == 1):
         not_ekle()
