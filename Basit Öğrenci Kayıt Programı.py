@@ -17,13 +17,13 @@ def not_ekle():
     print(f'>> {ogrenciAdSoy} adlı öğrenci sisteme başarıyla kaydedildi!\n')
 
     counter = 1
-    lOgrenciler = []
+    ogrenciListe = []
     with open('kayitliOgrenciler.txt', mode='r', encoding='utf-8') as file2:
         for kaan in file2:
-            lOgrenciler.append(str(counter) + "-" + kaan.split("-")[1])
+            ogrenciListe.append(str(counter) + "-" + kaan.split("-")[1])
             counter += 1
     with open('kayitliOgrenciler.txt', mode='w', encoding='utf-8') as file3:
-        file3.writelines(lOgrenciler)
+        file3.writelines(ogrenciListe)
 
 def not_oku():
     with open('kayitliOgrenciler.txt', mode='r', encoding='utf-8') as file4:
@@ -32,27 +32,27 @@ def not_oku():
             print(kaan)
 
 def ogrenci_sil():
-    ogrenciListe = []
+    ogrenciListe2 = []
     with open('kayitliOgrenciler.txt', mode='r', encoding='utf-8') as f:
         for kaan12 in f:
-            ogrenciListe.append(kaan12)
+            ogrenciListe2.append(kaan12)
 
     silOgrenci = int(input("""\n==========ÖĞRENCİ SİLME==========
 Silmek istediğiniz öğrencinin listede yer aldığı sırayı yazınız (örn; 3)
 > Silmek istediğiniz öğrenci: """))
 
-    ogrenciListe.pop(silOgrenci - 1)
+    ogrenciListe2.pop(silOgrenci - 1)
     with open('kayitliOgrenciler.txt', mode='w', encoding='utf-8') as f2:
-        f2.writelines(ogrenciListe)
+        f2.writelines(ogrenciListe2)
 
     counter3 = 1
-    lOgrenciler2 = []
+    ogrenciListe3 = []
     with open('kayitliOgrenciler.txt', mode='r', encoding='utf-8') as f3:
         for kaan in f3:
-            lOgrenciler2.append(str(counter3) + "-" + kaan.split("-")[1])
+            ogrenciListe3.append(str(counter3) + "-" + kaan.split("-")[1])
             counter3 += 1
     with open('kayitliOgrenciler.txt', mode='w', encoding='utf-8') as f4:
-        f4.writelines(lOgrenciler2)
+        f4.writelines(ogrenciListe3)
     print(f'>> Listede kayıtlı {silOgrenci} sıradaki öğrenci başarıyla silindi!\n')
 
 while(True):
