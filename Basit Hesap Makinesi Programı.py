@@ -20,7 +20,7 @@ while(True):
 5.Çıkış...
 > İşlem seçiniz (örn;1): """))
         if(operation < 1)or(operation > 5):
-            print('\n>> Lütfen 1 ile 4 arası seçim yapınız!\n')
+            print('\n>> Lütfen 1 ile 5 arası seçim yapınız!\n')
         elif(operation == 5):
             print('\n> Çıkış yapılıyor...')
             time.sleep(2)
