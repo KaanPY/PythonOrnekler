@@ -38,9 +38,12 @@ def bolme():
             result.configure(text='Sayı giriniz!')
     except ZeroDivisionError:
         result.configure(text='sıfıra bölünemez!')
+def cikis():
+    print('Çıkış Yapıldı!')
+    win.quit()
 
 win = Tk()
-win.geometry('320x300')
+win.geometry('320x320')
 win.title('Hesap Makinesi')
 
 number = Entry(foreground='#228b22', font="Courier 14 bold", width=15, justify="right")
@@ -57,5 +60,6 @@ buttonTopla = Button(text='+', foreground='#1c6071', font='Courier 14 bold', wid
 buttonCikarma = Button(text='-', foreground='#1c6071', font='Courier 14 bold', width=10, command=cikarma).place(x=90, y=150)
 buttonCarpma = Button(text='x', foreground='#1c6071', font='Courier 14 bold', width=10, command=carpma).place(x=90, y=190)
 buttonBolme = Button(text='/', foreground='#1c6071', font='Courier 14 bold', width=10, command=bolme).place(x=90, y=230)
+buttonBolme = Button(text='Çıkış', foreground='red', font='Courier 14 bold', width=15, command=cikis).place(x=60, y=275)
 
 win.mainloop()
