@@ -45,6 +45,7 @@ def cikis():
 win = Tk()
 win.geometry('320x320')
 win.resizable(False, False)
+win.wm_attributes('-alpha', 0.9)
 win.title('Hesap Makinesi')
 
 number = Entry(foreground='#228b22', font="Courier 14 bold", width=15, justify="right")
