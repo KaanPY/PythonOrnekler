@@ -1,2 +1,2 @@
 # 🚀 [Python <3](https://www.python.org/)
-![image](https://user-images.githubusercontent.com/77877967/119269918-c4a47200-bc02-11eb-97ac-b64116d12667.png)
+![image](https://user-images.githubusercontent.com/77877967/120018647-247a8e80-bff0-11eb-8a3f-182eabd62802.png)
