@@ -5,6 +5,8 @@ import tkinter as tk
 
 def control():
     if((entryText.get() == 'admin')and(entryText2.get() == '123456')):
+        entryText.delete(0, 'end')
+        entryText2.delete(0, 'end')
         win2 = Tk()
         win2.title('Admin Panel!')
         win2.geometry('250x250')
@@ -16,6 +18,7 @@ def control():
 
         win2.mainloop()
     else:
+        entryText2.delete(0, 'end')
         labelText.configure(text='> Kullanıcı Adı Veya Şifre Yanlış!', font='Verdana 10 bold', foreground='red')
 
 win = Tk()
