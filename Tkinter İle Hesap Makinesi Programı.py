@@ -46,6 +46,7 @@ win = Tk()
 win.geometry('320x320')
 win.resizable(False, False)
 win.wm_attributes('-alpha', 0.9)
+win.configure(background='#303030')
 win.title('Hesap Makinesi')
 
 number = Entry(foreground='#228b22', font="Courier 14 bold", width=15, justify="right")
@@ -55,7 +56,7 @@ number2.place(x=70, y=80)
 
 number.focus()
 
-result = Label(text='Sonuç', foreground='#8b7500', font='Courier 16 bold', width=30, justify='center')
+result = Label(text='Sonuç', foreground='#8b7500', background='#303030', font='Courier 16 bold', width=30, justify='center')
 result.place(x=-50, y=20)
 
 buttonTopla = Button(text='+', foreground='#1c6071', font='Courier 14 bold', width=10, command=toplama).place(x=90, y=110)
