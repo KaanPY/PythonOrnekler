@@ -32,7 +32,7 @@ text3 = Label(win, text='> Giriş bilgileri; Kullanıcı Adı: admin, Şifre: 12
 
 entryText = Entry(win, font='Verdana 10 bold', foreground='#0070b6', width='15', background='#ffffff')
 entryText.place(x=102, y=80)
-entryText2 = Entry(win, font='Verdana 10 bold', foreground='#0070b6', width='15', background='#ffffff')
+entryText2 = Entry(win,show='*', font='Verdana 10 bold', foreground='#0070b6', width='15', background='#ffffff')
 entryText2.place(x=102, y=110)
 
 buttonInput = Button(win, text='Giriş Yap', font='Vedana 10 bold', foreground='#ffffff', width='10', background='#00bb18', command=control).place(x=120, y=140)
