@@ -62,7 +62,7 @@ checkButton.place(x=95,y=140)
 checkButton2 = Checkbutton(win, text='Kaşar', font='Verdana 10 bold', background='#303030', foreground='#2f6cad', activebackground='#303030', variable=check2, onvalue='Kaşar')
 checkButton2.place(x=165,y=140)
 checkButton3 = Checkbutton(win, text='Mısır', font='Verdana 10 bold', background='#303030', foreground='#2f6cad', activebackground='#303030', variable=check3, onvalue='Mısır')
-checkButton3.place(x=225,y=140)
+checkButton3.place(x=230,y=140)
 
 labelText5 = Label(win, text='Adres:', font='Verdana 10 bold', background='#303030', foreground='#ffffff').place(x=40,y=170)
 entryText2 = Entry(win, font='Verdana 10 bold', background='#ffffff', foreground='#303030', width=20)
