@@ -28,7 +28,7 @@ def verified():
     win2.mainloop()
 
 win = Tk()
-win.geometry('320x280+700+320')
+win.geometry('320x280')
 win.resizable(False, False)
 win.wm_attributes('-alpha', 0.9)
 win.configure(background='#303030')
