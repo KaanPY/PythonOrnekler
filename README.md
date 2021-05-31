@@ -2,3 +2,4 @@
 ![image](https://user-images.githubusercontent.com/77877967/120018647-247a8e80-bff0-11eb-8a3f-182eabd62802.png)
 
 # Basit hesap Makinesi Programı
+![image](https://user-images.githubusercontent.com/77877967/120245990-99132e80-c277-11eb-8b27-042e32dae7f0.png)
