@@ -24,6 +24,6 @@
 # Tkinter İle Ortalama Hesaplama Programı
 ![image](https://user-images.githubusercontent.com/77877967/120316120-c0084980-c2e5-11eb-95a2-ab4a4abd71f4.png)
 
-# Tkinter İle Sipraiş Sistemi Programı
+# Tkinter İle Sipariş Sistemi Programı
 ![image](https://user-images.githubusercontent.com/77877967/120316398-0bbaf300-c2e6-11eb-8b88-6775334096bf.png)
 ![image](https://user-images.githubusercontent.com/77877967/120316513-2e4d0c00-c2e6-11eb-8697-c7228e06ae72.png)
