@@ -21,3 +21,5 @@
 # Tkinter İle Hesap Makinesi Programı
 ![image](https://user-images.githubusercontent.com/77877967/120315770-5e47df80-c2e5-11eb-8056-40710dda0b7f.png)
 
+# Tkinter İle Ortalama Hesaplama Programı
+![image](https://user-images.githubusercontent.com/77877967/120316120-c0084980-c2e5-11eb-95a2-ab4a4abd71f4.png)
