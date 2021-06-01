@@ -13,3 +13,7 @@
 # Basit Öğrenci Kayıt Programı
 ![image](https://user-images.githubusercontent.com/77877967/120314827-50458f00-c2e4-11eb-939c-0d6d5c9d2004.png)
 ![image](https://user-images.githubusercontent.com/77877967/120314921-71a67b00-c2e4-11eb-9459-3e498574e9c9.png)
+
+# Tkinter İle Admin Giriş Programı
+![image](https://user-images.githubusercontent.com/77877967/120315325-e8437880-c2e4-11eb-9b29-443964c0b56d.png)
+![image](https://user-images.githubusercontent.com/77877967/120315378-f98c8500-c2e4-11eb-8097-586ca465210b.png)
